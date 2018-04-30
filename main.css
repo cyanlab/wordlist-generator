@@ -1,0 +1,154 @@
+ html {
+  height: 100%;
+} 
+body {
+  background: #fff;
+  min-width: 650px;
+  min-height: 600px;
+  margin: 0px;
+  padding-bottom: 0px;
+  height: 100%;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+#up {
+  height: 70px;
+  background: #fff;
+  padding: 10px;
+}
+
+img {
+  border: none;
+}
+.logo {
+  float: left;
+  margin: 0 16px 0 10px;
+}
+
+.toggle{
+  width: auto;
+}
+
+.brand {
+  opacity: .5;
+  height: 30px;
+  margin: 10px;
+  display: inline-flex;
+  font-size: x-large;
+
+}
+
+#toolbar {
+  background: #fff;
+  height: 50px;
+  border: 1px solid rgba(33,33,33,.3);
+
+}
+
+#main{ 
+  flex: 1;
+  width: 100%;
+}
+
+.section {
+  display: inline-block;
+  padding: 10px;
+}
+
+.form {
+
+  background: #fff;
+  border-radius: 15px;
+  height: 95%;
+
+}
+
+#s_column {
+  height: 100%;
+  display: none;
+}
+
+#t_column {
+  width: 100%;
+  display: inline-flex;
+  height: 100%
+}
+
+#leftcol {
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#rightcol {
+  width: 45%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+#toggle-container {
+  background: #fff;
+  height: 50px;
+  padding: 10px;
+}
+
+.tgl-btn {
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+  margin: 10px;
+
+}
+
+.g-btn {
+  
+  float: right;
+  height: 20px;
+  padding: 15px;
+  background: rgb(128,191,68);
+  line-height: 100%;
+  color: white;
+  font-size: large;
+
+}
+
+.g-btn:hover{
+ color: white;
+}
+
+iframe:active {
+  border-color: rgb(128,191,68);
+}
+
+
+
+button:hover{
+  color: rgb(128,191,68);
+}
+
+
+footer {
+  height: 30px;
+  padding-top: 15px;
+  width: 100%;
+  background: rgb(33,33,33);
+  text-align: center;
+  color: #fff;
+  padding-bottom: 0px;
+  
+}
+iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border: 1px solid gray;
+}
+
+button {
+  height: 30px;
+  border: 0px;
+  background: #fff;
+
+}

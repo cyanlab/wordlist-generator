@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>my web</title>
+  <link rel="stylesheet" href="main.css">
+  <script type="text/javascript" src="editor.js"></script>
+</head>
+<body onLoad="Init();">
+  <div id="up">
+    <img class="logo" src="logo.png"></img>
+    <div class="brand">WordList Generator</div>
+  </div>
+  <div id="toolbar">
+    <div class="section">
+      <button onClick="doStyle('bold');" style="font-weight: bold;">B</button>
+      <button onClick="doStyle('italic');" style="font-style: italic;">I</button>
+      <button onClick="doStyle('underline');" style="text-decoration: underline;">U</button>
+      <button onClick="doStyle('justifyleft');">Выровнять слева</button>
+      <button onClick="doStyle('justifycenter');">Выравнять по центру</button>
+      <button onClick="doStyle('justifyright');">Выровнять справа</button>
+    </div>
+    <buttom class="g-btn">СОЗДАТЬ PDF</buttom>
+  </div>
+  <div id="toggle-container">
+    <div class="toggle">
+      <button class="tgl-btn">1</button>
+      <button class="tgl-btn tgl-active">2</button>
+    </div>
+  </div>
+  <div id="main">
+      <div id="s_column">
+        <div class="form">
+          <iframe id="i_single_red" ></iframe>
+        </div>
+      </div>
+      <div id="t_column">
+        <div id="leftcol" class="form">
+          <iframe id="i_left_red" ></iframe>
+        </div>
+        <div id="rightcol" class="form">
+          <iframe id="i_right_red" ></iframe>
+        </div>
+      </div>
+  </div>
+  <footer>powered by Ontolo and LoinASD</footer>
+</body>
+</html>
